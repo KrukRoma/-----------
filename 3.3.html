@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bordered
+        {
+            border: 1px solid crimson;
+            border-width: 15px;
+            background-color: crimson;
+            margin-bottom: 10px;
+            padding-left: 84.5px;
+        }
+        .bordered1
+        {
+            border: 1px solid red;
+            border-width: 5px;
+            background-color: red;
+            margin-bottom: 10px;
+            padding-left: 94.5px;
+        }
+        .container
+        {
+            display: flex;
+            margin-bottom: 10px; 
+        }
+        .container1
+        {
+            display: flex;
+        }
+        .container2
+        {
+            display: flex;
+        }
+        .bordered2
+        {
+            box-sizing: border-box;
+            border: 1px solid rgb(211, 58, 58);
+            border-width: 70px;
+            width: 25%;
+            background-color: rgb(211, 58, 58);
+            margin-bottom: 10px;
+            margin-right: 10px;
+            padding-left:  10px;
+            height: 2px;
+            order: 1;
+            padding-left: 30px;
+        }
+        .bordered3
+        {
+            border: 1px solid rgb(211, 58, 58);
+            border-width: 100px;
+            background-color: rgb(211, 58, 58);
+            margin-bottom: 10px;
+            margin-right: 10px;
+            width: 10%;
+            padding-left: 0px;
+            order: 2;
+        }
+        .bordered4
+        {
+            box-sizing: border-box;
+            border: 1px solid rgb(211, 58, 58);
+            border-width: 0 393px;
+            background-color: rgb(211, 58, 58);
+            margin-right: 10px;
+            order: 3; 
+            width: 600px;         
+        }
+        .bordered5
+        {
+            border: 1px solid rgb(211, 58, 58);
+            border-width: 70px;
+            background-color: rgb(211, 58, 58);
+            margin-right: 0px;
+            height: 300px;
+            width: 4%;
+            order: 4;
+        }
+        .bordered6
+        {
+            border: 1px solid red;
+            border-width: 20px;
+            background-color: red;
+            margin-bottom: 10px;
+            margin-right: 0px;
+            padding-left: 78px;
+        }    
+    </style>
+</head>
+<body>
+    <div class="bordered">
+        <p style="color: white;">HEADER</p>
+    </div>
+    <div class="bordered1">
+        <p style="color: white;">MENU</p>
+    </div>
+    
+    <div class="container">
+        <div class="container1">
+            <div class="bordered2">
+                <p style="color: white;">ASIDE 1</p>
+            </div>
+            <div class="bordered3">
+                <p style="color: white;">ASIDE 2</p>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="bordered4">
+                <p style="color: white;">MAIN CONTENT</p>
+            </div>
+            <div class="bordered5">
+                <p style="color: white;">A</p>
+                <p style="color: white;">S</p>
+                <p style="color: white;">I</p>
+                <p style="color: white;">D</p>
+                <p style="color: white;">E</p>
+                <p style="color: white;">3</p>
+            </div>
+        </div>
+    </div>
+    <div class="bordered6">
+        <p style="color: white;">FOOTER</p>
+    </div>   
+</body>
+</html>
