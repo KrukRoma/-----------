@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .bordered1
+        {
+            border: 1px solid rgb(24, 24, 94);
+            background-color: rgb(24, 24, 94);
+            height: 300px;
+            padding-top: 50px;
+        }
+        .bordered1 p {
+            color: white;
+            padding-left: 120px;   
+            transition: text-decoration 0.3s;      
+        }
+        .bordered1 p :hover {
+            text-decoration: underline;
+        }
+        .column1
+        {
+            position: absolute;
+        }
+        .column1 p {
+            transition: text-decoration 0.3s;    
+        }
+        .column1 p:hover {
+            text-decoration : underline;
+        }
+        .column2
+        {
+            position: absolute;
+            padding-left: 450px;
+        }
+        .footer-line
+        {
+            margin-top: 160px;
+            border: 1px solid white;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="bordered1">
+        <div class="column1">
+            <p>Home</p>
+            <p>About</p>
+            <p>Gallery</p>
+            <p>News</p>
+        </div>
+        <div class="column2">
+            <p>Blog</p>
+            <p>FAQ</p>
+            <p>Contacts</p>
+            <p>Privacy & cookies</p>
+        </div>
+        <hr class="footer-line">
+        <p style="padding-left: 550px;" >Copyright Company 2018 - 2019</p>
+    </div>
 </body>
 </html>
